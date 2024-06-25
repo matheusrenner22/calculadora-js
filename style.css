@@ -84,3 +84,21 @@ body {
 .btn-eq:hover {
     background-color: rgb(0, 170, 170);
 }
+
+@media (max-width: 520px) {
+    .container {
+        width: 360px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 230px;
+    }
+}
