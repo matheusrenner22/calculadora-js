@@ -3,6 +3,7 @@ function Calculadora() {
 
     const btnParaDisplay = (valor) => {
         display.value += valor;
+        focusDisplay();
     };
 
     const clearDisplay = () => {
